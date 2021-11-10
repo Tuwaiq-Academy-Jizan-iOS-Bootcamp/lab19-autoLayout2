@@ -23,31 +23,31 @@
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="170"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BCCE36AA-6EA6-4E97-A806-929CEC98928E_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="o5g-oc-YVJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="170"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="175.5" height="170"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="170" id="XwY-2p-lj4"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gde-W2-Irn">
-                                                <rect key="frame" x="115" y="0.0" width="240" height="170"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gde-W2-Irn">
+                                                <rect key="frame" x="180.5" y="0.0" width="174.5" height="170"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tlC-HQ-Yjk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="107"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="107"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amal Jeli" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-1T-f1d">
-                                                                <rect key="frame" x="0.0" y="0.0" width="240" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="174.5" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jazan , Sabya " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="919-DA-6fT">
-                                                                <rect key="frame" x="0.0" y="28.5" width="240" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="28.5" width="174.5" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="My Name : Amal Jeli                                       My Age : 27                                        " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jAj-DL-4Hm">
-                                                                <rect key="frame" x="0.0" y="57" width="240" height="50"/>
+                                                                <rect key="frame" x="0.0" y="57" width="174.5" height="50"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <color key="textColor" systemColor="labelColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -56,17 +56,17 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="sFE-5t-lRA">
-                                                        <rect key="frame" x="0.0" y="139" width="240" height="31"/>
+                                                        <rect key="frame" x="0.0" y="117" width="174.5" height="53"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WZ-Cw-u0y">
-                                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="31"/>
+                                                                <rect key="frame" x="0.0" y="11" width="48.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.66983259949999996" green="0.86087566609999999" blue="0.72665071439999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Call"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7a-EQ-hBG">
-                                                                <rect key="frame" x="99.5" y="0.0" width="140.5" height="31"/>
+                                                                <rect key="frame" x="81.5" y="11" width="93" height="31"/>
                                                                 <color key="backgroundColor" red="0.66983259945098328" green="0.86087566614151001" blue="0.7266507143708637" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Find More!">
@@ -76,10 +76,6 @@
                                                         </subviews>
                                                     </stackView>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="240" id="oml-lx-JKY"/>
-                                                    <constraint firstItem="sFE-5t-lRA" firstAttribute="top" secondItem="tlC-HQ-Yjk" secondAttribute="bottom" constant="32" id="tfB-yw-BK1"/>
-                                                </constraints>
                                             </stackView>
                                         </subviews>
                                     </stackView>
