@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8476BC273D5002001B2E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8476BB273D5002001B2E3F /* AppDelegate.swift */; };
+		EA8476BE273D5002001B2E3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8476BD273D5002001B2E3F /* SceneDelegate.swift */; };
+		EA8476C0273D5002001B2E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8476BF273D5002001B2E3F /* ViewController.swift */; };
+		EA8476C3273D5002001B2E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8476C1273D5002001B2E3F /* Main.storyboard */; };
+		EA8476C5273D5004001B2E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8476C4273D5004001B2E3F /* Assets.xcassets */; };
+		EA8476C8273D5004001B2E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8476C6273D5004001B2E3F /* LaunchScreen.storyboard */; };
+		EA8476D3273D5004001B2E3F /* DAhma_ALWANITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8476D2273D5004001B2E3F /* DAhma_ALWANITests.swift */; };
+		EA8476DD273D5004001B2E3F /* DAhma_ALWANIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8476DC273D5004001B2E3F /* DAhma_ALWANIUITests.swift */; };
+		EA8476DF273D5004001B2E3F /* DAhma_ALWANIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8476DE273D5004001B2E3F /* DAhma_ALWANIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8476CF273D5004001B2E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8476B0273D5002001B2E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8476B7273D5002001B2E3F;
+			remoteInfo = DAhma_ALWANI;
+		};
+		EA8476D9273D5004001B2E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8476B0273D5002001B2E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8476B7273D5002001B2E3F;
+			remoteInfo = DAhma_ALWANI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8476B8273D5002001B2E3F /* DAhma_ALWANI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAhma_ALWANI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8476BB273D5002001B2E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA8476BD273D5002001B2E3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA8476BF273D5002001B2E3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8476C2273D5002001B2E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8476C4273D5004001B2E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA8476C7273D5004001B2E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA8476C9273D5004001B2E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8476CE273D5004001B2E3F /* DAhma_ALWANITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAhma_ALWANITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8476D2273D5004001B2E3F /* DAhma_ALWANITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAhma_ALWANITests.swift; sourceTree = "<group>"; };
+		EA8476D8273D5004001B2E3F /* DAhma_ALWANIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAhma_ALWANIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8476DC273D5004001B2E3F /* DAhma_ALWANIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAhma_ALWANIUITests.swift; sourceTree = "<group>"; };
+		EA8476DE273D5004001B2E3F /* DAhma_ALWANIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAhma_ALWANIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8476B5273D5002001B2E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8476CB273D5004001B2E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8476D5273D5004001B2E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8476AF273D5002001B2E3F = {
+			isa = PBXGroup;
+			children = (
+				EA8476BA273D5002001B2E3F /* DAhma_ALWANI */,
+				EA8476D1273D5004001B2E3F /* DAhma_ALWANITests */,
+				EA8476DB273D5004001B2E3F /* DAhma_ALWANIUITests */,
+				EA8476B9273D5002001B2E3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8476B9273D5002001B2E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8476B8273D5002001B2E3F /* DAhma_ALWANI.app */,
+				EA8476CE273D5004001B2E3F /* DAhma_ALWANITests.xctest */,
+				EA8476D8273D5004001B2E3F /* DAhma_ALWANIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8476BA273D5002001B2E3F /* DAhma_ALWANI */ = {
+			isa = PBXGroup;
+			children = (
+				EA8476BB273D5002001B2E3F /* AppDelegate.swift */,
+				EA8476BD273D5002001B2E3F /* SceneDelegate.swift */,
+				EA8476BF273D5002001B2E3F /* ViewController.swift */,
+				EA8476C1273D5002001B2E3F /* Main.storyboard */,
+				EA8476C4273D5004001B2E3F /* Assets.xcassets */,
+				EA8476C6273D5004001B2E3F /* LaunchScreen.storyboard */,
+				EA8476C9273D5004001B2E3F /* Info.plist */,
+			);
+			path = DAhma_ALWANI;
+			sourceTree = "<group>";
+		};
+		EA8476D1273D5004001B2E3F /* DAhma_ALWANITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8476D2273D5004001B2E3F /* DAhma_ALWANITests.swift */,
+			);
+			path = DAhma_ALWANITests;
+			sourceTree = "<group>";
+		};
+		EA8476DB273D5004001B2E3F /* DAhma_ALWANIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8476DC273D5004001B2E3F /* DAhma_ALWANIUITests.swift */,
+				EA8476DE273D5004001B2E3F /* DAhma_ALWANIUITestsLaunchTests.swift */,
+			);
+			path = DAhma_ALWANIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8476B7273D5002001B2E3F /* DAhma_ALWANI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8476E2273D5004001B2E3F /* Build configuration list for PBXNativeTarget "DAhma_ALWANI" */;
+			buildPhases = (
+				EA8476B4273D5002001B2E3F /* Sources */,
+				EA8476B5273D5002001B2E3F /* Frameworks */,
+				EA8476B6273D5002001B2E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAhma_ALWANI;
+			productName = DAhma_ALWANI;
+			productReference = EA8476B8273D5002001B2E3F /* DAhma_ALWANI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8476CD273D5004001B2E3F /* DAhma_ALWANITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8476E5273D5004001B2E3F /* Build configuration list for PBXNativeTarget "DAhma_ALWANITests" */;
+			buildPhases = (
+				EA8476CA273D5004001B2E3F /* Sources */,
+				EA8476CB273D5004001B2E3F /* Frameworks */,
+				EA8476CC273D5004001B2E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8476D0273D5004001B2E3F /* PBXTargetDependency */,
+			);
+			name = DAhma_ALWANITests;
+			productName = DAhma_ALWANITests;
+			productReference = EA8476CE273D5004001B2E3F /* DAhma_ALWANITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA8476D7273D5004001B2E3F /* DAhma_ALWANIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8476E8273D5004001B2E3F /* Build configuration list for PBXNativeTarget "DAhma_ALWANIUITests" */;
+			buildPhases = (
+				EA8476D4273D5004001B2E3F /* Sources */,
+				EA8476D5273D5004001B2E3F /* Frameworks */,
+				EA8476D6273D5004001B2E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8476DA273D5004001B2E3F /* PBXTargetDependency */,
+			);
+			name = DAhma_ALWANIUITests;
+			productName = DAhma_ALWANIUITests;
+			productReference = EA8476D8273D5004001B2E3F /* DAhma_ALWANIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8476B0273D5002001B2E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EA8476B7273D5002001B2E3F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EA8476CD273D5004001B2E3F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EA8476B7273D5002001B2E3F;
+					};
+					EA8476D7273D5004001B2E3F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EA8476B7273D5002001B2E3F;
+					};
+				};
+			};
+			buildConfigurationList = EA8476B3273D5002001B2E3F /* Build configuration list for PBXProject "DAhma_ALWANI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8476AF273D5002001B2E3F;
+			productRefGroup = EA8476B9273D5002001B2E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8476B7273D5002001B2E3F /* DAhma_ALWANI */,
+				EA8476CD273D5004001B2E3F /* DAhma_ALWANITests */,
+				EA8476D7273D5004001B2E3F /* DAhma_ALWANIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8476B6273D5002001B2E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8476C8273D5004001B2E3F /* LaunchScreen.storyboard in Resources */,
+				EA8476C5273D5004001B2E3F /* Assets.xcassets in Resources */,
+				EA8476C3273D5002001B2E3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8476CC273D5004001B2E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8476D6273D5004001B2E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8476B4273D5002001B2E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8476C0273D5002001B2E3F /* ViewController.swift in Sources */,
+				EA8476BC273D5002001B2E3F /* AppDelegate.swift in Sources */,
+				EA8476BE273D5002001B2E3F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8476CA273D5004001B2E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8476D3273D5004001B2E3F /* DAhma_ALWANITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8476D4273D5004001B2E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8476DF273D5004001B2E3F /* DAhma_ALWANIUITestsLaunchTests.swift in Sources */,
+				EA8476DD273D5004001B2E3F /* DAhma_ALWANIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8476D0273D5004001B2E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8476B7273D5002001B2E3F /* DAhma_ALWANI */;
+			targetProxy = EA8476CF273D5004001B2E3F /* PBXContainerItemProxy */;
+		};
+		EA8476DA273D5004001B2E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8476B7273D5002001B2E3F /* DAhma_ALWANI */;
+			targetProxy = EA8476D9273D5004001B2E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8476C1273D5002001B2E3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8476C2273D5002001B2E3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8476C6273D5004001B2E3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8476C7273D5004001B2E3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8476E0273D5004001B2E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8476E1273D5004001B2E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8476E3273D5004001B2E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAhma_ALWANI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.DAhma-ALWANI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8476E4273D5004001B2E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAhma_ALWANI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.DAhma-ALWANI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA8476E6273D5004001B2E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.DAhma-ALWANITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAhma_ALWANI.app/DAhma_ALWANI";
+			};
+			name = Debug;
+		};
+		EA8476E7273D5004001B2E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.DAhma-ALWANITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAhma_ALWANI.app/DAhma_ALWANI";
+			};
+			name = Release;
+		};
+		EA8476E9273D5004001B2E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.DAhma-ALWANIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAhma_ALWANI;
+			};
+			name = Debug;
+		};
+		EA8476EA273D5004001B2E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiqAcademy.DAhma-ALWANIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAhma_ALWANI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8476B3273D5002001B2E3F /* Build configuration list for PBXProject "DAhma_ALWANI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8476E0273D5004001B2E3F /* Debug */,
+				EA8476E1273D5004001B2E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8476E2273D5004001B2E3F /* Build configuration list for PBXNativeTarget "DAhma_ALWANI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8476E3273D5004001B2E3F /* Debug */,
+				EA8476E4273D5004001B2E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8476E5273D5004001B2E3F /* Build configuration list for PBXNativeTarget "DAhma_ALWANITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8476E6273D5004001B2E3F /* Debug */,
+				EA8476E7273D5004001B2E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8476E8273D5004001B2E3F /* Build configuration list for PBXNativeTarget "DAhma_ALWANIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8476E9273D5004001B2E3F /* Debug */,
+				EA8476EA273D5004001B2E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8476B0273D5002001B2E3F /* Project object */;
+}
