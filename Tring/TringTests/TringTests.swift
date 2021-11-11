@@ -1,14 +1,14 @@
 //
-//  EhabHakami_Lab18AutoLTests.swift
-//  EhabHakami_Lab18AutoLTests
+//  TringTests.swift
+//  TringTests
 //
 //  Created by Ehab Hakami on 05/04/1443 AH.
 //
 
 import XCTest
-@testable import EhabHakami_Lab18AutoL
+@testable import Tring
 
-class EhabHakami_Lab18AutoLTests: XCTestCase {
+class TringTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  EhabHakami_Lab18AutoLUITestsLaunchTests.swift
-//  EhabHakami_Lab18AutoLUITests
+//  TringUITestsLaunchTests.swift
+//  TringUITests
 //
 //  Created by Ehab Hakami on 05/04/1443 AH.
 //
 
 import XCTest
 
-class EhabHakami_Lab18AutoLUITestsLaunchTests: XCTestCase {
+class TringUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
