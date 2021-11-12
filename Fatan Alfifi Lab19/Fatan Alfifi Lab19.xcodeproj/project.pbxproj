@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B69ADEA273EBA160078DFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69ADE9273EBA160078DFDE /* AppDelegate.swift */; };
+		9B69ADEC273EBA160078DFDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69ADEB273EBA160078DFDE /* SceneDelegate.swift */; };
+		9B69ADEE273EBA160078DFDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69ADED273EBA160078DFDE /* ViewController.swift */; };
+		9B69ADF1273EBA160078DFDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ADEF273EBA160078DFDE /* Main.storyboard */; };
+		9B69ADF3273EBA160078DFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ADF2273EBA160078DFDE /* Assets.xcassets */; };
+		9B69ADF6273EBA160078DFDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ADF4273EBA160078DFDE /* LaunchScreen.storyboard */; };
+		9B69AE01273EBA160078DFDE /* Fatan_Alfifi_Lab19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69AE00273EBA160078DFDE /* Fatan_Alfifi_Lab19Tests.swift */; };
+		9B69AE0B273EBA160078DFDE /* Fatan_Alfifi_Lab19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69AE0A273EBA160078DFDE /* Fatan_Alfifi_Lab19UITests.swift */; };
+		9B69AE0D273EBA160078DFDE /* Fatan_Alfifi_Lab19UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69AE0C273EBA160078DFDE /* Fatan_Alfifi_Lab19UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B69ADFD273EBA160078DFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B69ADDE273EBA160078DFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B69ADE5273EBA160078DFDE;
+			remoteInfo = "Fatan Alfifi Lab19";
+		};
+		9B69AE07273EBA160078DFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B69ADDE273EBA160078DFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B69ADE5273EBA160078DFDE;
+			remoteInfo = "Fatan Alfifi Lab19";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B69ADE6273EBA160078DFDE /* Fatan Alfifi Lab19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fatan Alfifi Lab19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B69ADE9273EBA160078DFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B69ADEB273EBA160078DFDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B69ADED273EBA160078DFDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B69ADF0273EBA160078DFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B69ADF2273EBA160078DFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B69ADF5273EBA160078DFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B69ADF7273EBA160078DFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B69ADFC273EBA160078DFDE /* Fatan Alfifi Lab19Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fatan Alfifi Lab19Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B69AE00273EBA160078DFDE /* Fatan_Alfifi_Lab19Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fatan_Alfifi_Lab19Tests.swift; sourceTree = "<group>"; };
+		9B69AE06273EBA160078DFDE /* Fatan Alfifi Lab19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fatan Alfifi Lab19UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B69AE0A273EBA160078DFDE /* Fatan_Alfifi_Lab19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fatan_Alfifi_Lab19UITests.swift; sourceTree = "<group>"; };
+		9B69AE0C273EBA160078DFDE /* Fatan_Alfifi_Lab19UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fatan_Alfifi_Lab19UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B69ADE3273EBA160078DFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69ADF9273EBA160078DFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69AE03273EBA160078DFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B69ADDD273EBA160078DFDE = {
+			isa = PBXGroup;
+			children = (
+				9B69ADE8273EBA160078DFDE /* Fatan Alfifi Lab19 */,
+				9B69ADFF273EBA160078DFDE /* Fatan Alfifi Lab19Tests */,
+				9B69AE09273EBA160078DFDE /* Fatan Alfifi Lab19UITests */,
+				9B69ADE7273EBA160078DFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B69ADE7273EBA160078DFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B69ADE6273EBA160078DFDE /* Fatan Alfifi Lab19.app */,
+				9B69ADFC273EBA160078DFDE /* Fatan Alfifi Lab19Tests.xctest */,
+				9B69AE06273EBA160078DFDE /* Fatan Alfifi Lab19UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B69ADE8273EBA160078DFDE /* Fatan Alfifi Lab19 */ = {
+			isa = PBXGroup;
+			children = (
+				9B69ADE9273EBA160078DFDE /* AppDelegate.swift */,
+				9B69ADEB273EBA160078DFDE /* SceneDelegate.swift */,
+				9B69ADED273EBA160078DFDE /* ViewController.swift */,
+				9B69ADEF273EBA160078DFDE /* Main.storyboard */,
+				9B69ADF2273EBA160078DFDE /* Assets.xcassets */,
+				9B69ADF4273EBA160078DFDE /* LaunchScreen.storyboard */,
+				9B69ADF7273EBA160078DFDE /* Info.plist */,
+			);
+			path = "Fatan Alfifi Lab19";
+			sourceTree = "<group>";
+		};
+		9B69ADFF273EBA160078DFDE /* Fatan Alfifi Lab19Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B69AE00273EBA160078DFDE /* Fatan_Alfifi_Lab19Tests.swift */,
+			);
+			path = "Fatan Alfifi Lab19Tests";
+			sourceTree = "<group>";
+		};
+		9B69AE09273EBA160078DFDE /* Fatan Alfifi Lab19UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B69AE0A273EBA160078DFDE /* Fatan_Alfifi_Lab19UITests.swift */,
+				9B69AE0C273EBA160078DFDE /* Fatan_Alfifi_Lab19UITestsLaunchTests.swift */,
+			);
+			path = "Fatan Alfifi Lab19UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B69ADE5273EBA160078DFDE /* Fatan Alfifi Lab19 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B69AE10273EBA160078DFDE /* Build configuration list for PBXNativeTarget "Fatan Alfifi Lab19" */;
+			buildPhases = (
+				9B69ADE2273EBA160078DFDE /* Sources */,
+				9B69ADE3273EBA160078DFDE /* Frameworks */,
+				9B69ADE4273EBA160078DFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fatan Alfifi Lab19";
+			productName = "Fatan Alfifi Lab19";
+			productReference = 9B69ADE6273EBA160078DFDE /* Fatan Alfifi Lab19.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B69ADFB273EBA160078DFDE /* Fatan Alfifi Lab19Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B69AE13273EBA160078DFDE /* Build configuration list for PBXNativeTarget "Fatan Alfifi Lab19Tests" */;
+			buildPhases = (
+				9B69ADF8273EBA160078DFDE /* Sources */,
+				9B69ADF9273EBA160078DFDE /* Frameworks */,
+				9B69ADFA273EBA160078DFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B69ADFE273EBA160078DFDE /* PBXTargetDependency */,
+			);
+			name = "Fatan Alfifi Lab19Tests";
+			productName = "Fatan Alfifi Lab19Tests";
+			productReference = 9B69ADFC273EBA160078DFDE /* Fatan Alfifi Lab19Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B69AE05273EBA160078DFDE /* Fatan Alfifi Lab19UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B69AE16273EBA160078DFDE /* Build configuration list for PBXNativeTarget "Fatan Alfifi Lab19UITests" */;
+			buildPhases = (
+				9B69AE02273EBA160078DFDE /* Sources */,
+				9B69AE03273EBA160078DFDE /* Frameworks */,
+				9B69AE04273EBA160078DFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B69AE08273EBA160078DFDE /* PBXTargetDependency */,
+			);
+			name = "Fatan Alfifi Lab19UITests";
+			productName = "Fatan Alfifi Lab19UITests";
+			productReference = 9B69AE06273EBA160078DFDE /* Fatan Alfifi Lab19UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B69ADDE273EBA160078DFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9B69ADE5273EBA160078DFDE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9B69ADFB273EBA160078DFDE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9B69ADE5273EBA160078DFDE;
+					};
+					9B69AE05273EBA160078DFDE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9B69ADE5273EBA160078DFDE;
+					};
+				};
+			};
+			buildConfigurationList = 9B69ADE1273EBA160078DFDE /* Build configuration list for PBXProject "Fatan Alfifi Lab19" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B69ADDD273EBA160078DFDE;
+			productRefGroup = 9B69ADE7273EBA160078DFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B69ADE5273EBA160078DFDE /* Fatan Alfifi Lab19 */,
+				9B69ADFB273EBA160078DFDE /* Fatan Alfifi Lab19Tests */,
+				9B69AE05273EBA160078DFDE /* Fatan Alfifi Lab19UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B69ADE4273EBA160078DFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69ADF6273EBA160078DFDE /* LaunchScreen.storyboard in Resources */,
+				9B69ADF3273EBA160078DFDE /* Assets.xcassets in Resources */,
+				9B69ADF1273EBA160078DFDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69ADFA273EBA160078DFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69AE04273EBA160078DFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B69ADE2273EBA160078DFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69ADEE273EBA160078DFDE /* ViewController.swift in Sources */,
+				9B69ADEA273EBA160078DFDE /* AppDelegate.swift in Sources */,
+				9B69ADEC273EBA160078DFDE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69ADF8273EBA160078DFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69AE01273EBA160078DFDE /* Fatan_Alfifi_Lab19Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B69AE02273EBA160078DFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B69AE0D273EBA160078DFDE /* Fatan_Alfifi_Lab19UITestsLaunchTests.swift in Sources */,
+				9B69AE0B273EBA160078DFDE /* Fatan_Alfifi_Lab19UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B69ADFE273EBA160078DFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B69ADE5273EBA160078DFDE /* Fatan Alfifi Lab19 */;
+			targetProxy = 9B69ADFD273EBA160078DFDE /* PBXContainerItemProxy */;
+		};
+		9B69AE08273EBA160078DFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B69ADE5273EBA160078DFDE /* Fatan Alfifi Lab19 */;
+			targetProxy = 9B69AE07273EBA160078DFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B69ADEF273EBA160078DFDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B69ADF0273EBA160078DFDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B69ADF4273EBA160078DFDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B69ADF5273EBA160078DFDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B69AE0E273EBA160078DFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B69AE0F273EBA160078DFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B69AE11273EBA160078DFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fatan Alfifi Lab19/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Fatan-Alfifi-Lab19";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B69AE12273EBA160078DFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fatan Alfifi Lab19/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Fatan-Alfifi-Lab19";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B69AE14273EBA160078DFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Fatan-Alfifi-Lab19Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fatan Alfifi Lab19.app/Fatan Alfifi Lab19";
+			};
+			name = Debug;
+		};
+		9B69AE15273EBA160078DFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Fatan-Alfifi-Lab19Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fatan Alfifi Lab19.app/Fatan Alfifi Lab19";
+			};
+			name = Release;
+		};
+		9B69AE17273EBA160078DFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Fatan-Alfifi-Lab19UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fatan Alfifi Lab19";
+			};
+			name = Debug;
+		};
+		9B69AE18273EBA160078DFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Fatan-Alfifi-Lab19UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fatan Alfifi Lab19";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B69ADE1273EBA160078DFDE /* Build configuration list for PBXProject "Fatan Alfifi Lab19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69AE0E273EBA160078DFDE /* Debug */,
+				9B69AE0F273EBA160078DFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B69AE10273EBA160078DFDE /* Build configuration list for PBXNativeTarget "Fatan Alfifi Lab19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69AE11273EBA160078DFDE /* Debug */,
+				9B69AE12273EBA160078DFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B69AE13273EBA160078DFDE /* Build configuration list for PBXNativeTarget "Fatan Alfifi Lab19Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69AE14273EBA160078DFDE /* Debug */,
+				9B69AE15273EBA160078DFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B69AE16273EBA160078DFDE /* Build configuration list for PBXNativeTarget "Fatan Alfifi Lab19UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B69AE17273EBA160078DFDE /* Debug */,
+				9B69AE18273EBA160078DFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B69ADDE273EBA160078DFDE /* Project object */;
+}
